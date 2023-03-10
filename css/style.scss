@@ -65,6 +65,31 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+.swiper-button-prev {
+  display: none!important;
+}
+
+.swiper-button-next {
+  &::after, &::before {
+  content: none !important;
+  }
+}
+
+.swiper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.swiper-pagination {
+  display: none!important;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -93,6 +118,73 @@ th {
   opacity: 1;
   transform: translateY(0);
 }
+
+.p-home-mv {
+  position: relative;
+}
+
+.p-home-mv__copy {
+  left: 50%;
+  position: absolute;
+  top: 37.1428571429%;
+  transform: translateX(-50%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 1;
+}
+
+.p-home-mv__main-copy {
+  margin: 0 auto;
+  width: clamp(250px, 72vw, 320px);
+  img {
+    width: 100%;
+  }
+}
+
+.p-home-mv__places {
+  .list {
+    align-items: baseline;
+    display: flex;
+    gap: 50px;
+    letter-spacing: 0;
+    li {
+      color: #fff;
+      font-weight: 700;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  }
+}
+
+.p-home-mv__scroll {
+  bottom: 23.8571428571%;
+  color: #fff;
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  position: absolute;
+  writing-mode: vertical-rl;
+  z-index: 1;
+  &::after {
+    animation: scrollLine 1.2s ease-in 0s infinite normal both running;
+    background-color: #fff;
+    bottom: -110px;
+    content: "";
+    display: block;
+    height: 100px;
+    left: calc(50% - 0.5px);
+    position: absolute;
+    transform-origin: top;
+    width: 1px;
+  }
+}
+
+
+
 .p-home-news__corona {
   margin: 0 0 28px;
   text-align: center;
@@ -1150,6 +1242,11 @@ th {
     transition: 0.3s;
     width: 0;
   }
+  &.is-open {
+    &::before {
+      transform: rotate(180deg) translateY(50%);
+    }
+  }
 }
 
 .p-home-faq-item__row {
@@ -1845,6 +1942,33 @@ small {
     letter-spacing: 0.15em;
     line-height: 2;
   }
+
+  .p-home-mv__copy {
+    top: 17.5%;
+  }
+
+  .p-home-mv__main-copy {
+    width: clamp(400px, 41.6666666667vw, 600px);
+  }
+
+  .p-home-mv__places {
+    align-items: baseline;
+    color: #fff;
+    display: block;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    margin: 32px 0 0;
+    text-shadow: 0 2px 4px rgb(3 3 3 / 25%);
+  }
+
+  .p-home-mv__scroll {
+    bottom: 31.3%;
+    font-size: 13px;
+    left: 47px;
+  }
+
   .l-inner {
     max-width: 1120px;
     .l-gnav__wrap {

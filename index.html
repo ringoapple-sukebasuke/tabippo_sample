@@ -1087,15 +1087,30 @@
 
     <script>
       const swiper = new Swiper('.sample-slider', {
-        loop: true,                         //ループ
-        autoplay: {                         //自動再生
-            delay: 5000,
+        loop: true,
+        autoplay: {
+            delay: 2000,
         },
-        pagination: {                       //ページネーション（ドット）
+        speed: 2000,
+        pagination: {
             el: '.swiper-pagination',
         },
         slidesPerView: 1
       })
+
+
+      const accordionItems = document.querySelectorAll('.js-accordion-item');
+      accordionItems.forEach(item => {
+        item.addEventListener('click', () => {
+          item.classList.toggle('is-open');
+          const accordionContent = item.querySelector('.js-accordion-content');
+          if (accordionContent.style.display === 'block') {
+            accordionContent.style.display = 'none';
+          } else {
+            accordionContent.style.display = 'block';
+          }
+        });
+      });
     </script>
 
 
