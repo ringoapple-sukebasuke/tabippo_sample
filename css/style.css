@@ -169,7 +169,7 @@ th {
   position: relative;
 }
 .p-home-news__corona a::before {
-  background: transparent url(../images/deco_1.png) no-repeat center center/contain;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/deco_1.png) no-repeat center center/contain;
   left: 0;
   transform: translate(calc(-100% - 10px), -50%);
   content: "";
@@ -181,7 +181,7 @@ th {
 }
 .p-home-news__corona a::after {
   -webkit-transform: translate(calc(100% + 10px), -50%);
-  background: transparent url(../images/deco_2.png) no-repeat center center/contain;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/deco_2.png) no-repeat center center/contain;
   right: 0;
   transform: translate(calc(100% + 10px), -50%);
   content: "";
@@ -259,7 +259,7 @@ th {
   text-align: right;
 }
 .p-home-news__btn a {
-  background: transparent url(../images/arrow_1.png) no-repeat center bottom/100% auto;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/arrow_1.png) no-repeat center bottom/100% auto;
   display: inline-block;
   font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
   font-size: 14px;
@@ -320,7 +320,7 @@ th {
 }
 
 .p-home-about__wrap {
-  background: transparent url(../images/bg_about.jpg) no-repeat center top/auto 40%;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/bg_about.jpg) no-repeat center top/auto 40%;
   padding: 60px 0 90px;
   position: relative;
 }
@@ -505,7 +505,7 @@ th {
   text-align: right;
 }
 .p-home-contents-item__desc .btn a {
-  background: transparent url(../images/arrow_1.png) no-repeat center bottom/100% auto;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/arrow_1.png) no-repeat center bottom/100% auto;
   display: inline-block;
   font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
   font-size: 14px;
@@ -599,7 +599,7 @@ th {
   position: relative;
 }
 .p-home-guest::before {
-  background: transparent url(../images/bg_guest_1.png) no-repeat left top/100% auto;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/bg_guest_2.png) no-repeat left top/100% auto;
   left: 0;
   top: 0;
   width: 54.9305555556%;
@@ -609,7 +609,7 @@ th {
   position: absolute;
 }
 .p-home-guest::after {
-  background: transparent url(../images/bg_guest_2.png) no-repeat right bottom/100% auto;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/bg_guest_2.png) no-repeat right bottom/100% auto;
   bottom: 0;
   right: 0;
   width: 67.5%;
@@ -730,7 +730,7 @@ th {
   text-align: center;
 }
 .p-home-event__subheading.m-place {
-  background: transparent url(../images/icon_map.png) no-repeat center top/30px auto;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/icon_map.png) no-repeat center top/30px auto;
   padding-top: 45px;
 }
 .p-home-event__subheading.m-en {
@@ -892,7 +892,7 @@ th {
   transform: translateY(-65%);
 }
 .p-home-event-step__num::before {
-  background: transparent url(../images/deco_3.svg) no-repeat center center/contain;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/deco_3.svg) no-repeat center center/contain;
   bottom: -35%;
   content: "";
   display: block;
@@ -1134,7 +1134,7 @@ th {
   position: relative;
 }
 .p-cv-box__subheading .text::before {
-  background-image: url(../images/deco_4.svg);
+  background-image: url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/deco_4.svg);
   left: -20px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1147,7 +1147,7 @@ th {
   width: 16px;
 }
 .p-cv-box__subheading .text::after {
-  background-image: url(../images/deco_5.svg);
+  background-image: url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/deco_5.svg);
   right: -16px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1292,7 +1292,7 @@ th {
 }
 
 .p-home-message {
-  background: transparent url(../images/bg_message.jpg) no-repeat center center/cover;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/bg_message.jpg) no-repeat center center/cover;
   padding: 48px 0 120px;
   position: relative;
 }
@@ -1643,7 +1643,7 @@ th {
 }
 
 .p-home-cv {
-  background: transparent url(../images/bg_cv.jpg) no-repeat center center/cover;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/bg_cv.jpg) no-repeat center center/cover;
   padding: 50px 0 60px;
 }
 
@@ -1725,10 +1725,10 @@ th {
   margin: 0;
 }
 .l-footer__sns .list li.m-ig a {
-  background-image: url(../images/icon_ig_white.png);
+  background-image: url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/icon_ig_white.png);
 }
 .l-footer__sns .list li.m-tw a {
-  background-image: url(../images/icon_tw_white.png);
+  background-image: url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/icon_tw_white.png);
 }
 .l-footer__sns .list li a {
   background-color: transparent;
@@ -1778,7 +1778,7 @@ small {
 }
 
 .home {
-  background: transparent url(../images/bg.jpg) repeat center center/100% auto;
+  background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/bg.jpg) repeat center center/100% auto;
 }
 
 .p-home-guest-item__name {
@@ -1866,10 +1866,10 @@ small {
   margin: 0;
 }
 .l-header .l-inner .l-gnav__wrap .l-gnav__sns li .insta_icon {
-  background-image: url(../images/icon_ig.png);
+  background-image: url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/icon_ig.png);
 }
 .l-header .l-inner .l-gnav__wrap .l-gnav__sns li .twitter_icon {
-  background-image: url(../images/icon_tw.png);
+  background-image: url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/icon_tw.png);
 }
 .l-header .l-inner .l-gnav__wrap .l-gnav__sns li a {
   background-color: #fff;
@@ -2400,7 +2400,7 @@ small {
     margin-left: 18px;
   }
   .p-home-company__wrap {
-    background: transparent url(../images/bg_company.jpg) no-repeat center center/cover;
+    background: transparent url(https://okada-s3storage.s3.ap-northeast-1.amazonaws.com/images/bg_company.jpg) no-repeat center center/cover;
     margin-top: 92px;
     padding: 96px 0 30px;
   }
